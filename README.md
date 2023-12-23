@@ -14,5 +14,6 @@ It mainly uses PyTorch (https://pytorch.org/). Some parts are also available for
 
 * `autograd`: demo of automatic differentiation in PyTorch and MLX
 * `linear_regression`: demo of linear regression in PyTorch and MLX
+* `perceptron`: multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
 
 
