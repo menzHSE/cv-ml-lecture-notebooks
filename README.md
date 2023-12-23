@@ -17,4 +17,20 @@ To work through all of the material, the following order is recommended.
 * `perceptron`: multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
 * `multi_layer_perceptron`: multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries
 
+## Usage
+
+There is a `requirements.txt` file in every folder that is automatically used by the notebooks, e.g. to install dependencies on Google Colab. For local setups, a `conda` environment with Jupyter kernels is recommended, e.g.
+
+```
+conda create --name cv-ml-torch python=3.10
+conda activate cv-ml-torch
+conda install ipykernel
+git clone https://github.com/menzHSE/cv-ml-lecture-notebooks
+pip install -r cv-ml-lecture-notebooks/multi_layer_perceptron/torch/requirements.txt
+python -m ipykernel install --user --name=cv-ml-torch
+```
+
+Then open notebooks in your favorite tool (e.g. VSCode) and select the installed Jupyter kernel `cv-ml-torch`
+
+
 
