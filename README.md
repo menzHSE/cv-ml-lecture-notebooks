@@ -13,6 +13,6 @@ It mainly uses PyTorch (https://pytorch.org/). Some parts are also available for
 ## Contents
 
 * `autograd`: demo of automatic differentiation in PyTorch and MLX
-* `linear_regression`: demo of linear_regression in PyTorch and MLX
+* `linear_regression`: demo of linear regression in PyTorch and MLX
 
 
