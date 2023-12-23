@@ -2,7 +2,7 @@
 
 ## About
 
-Markus Enzweiler, markus.enzweiler@hs-esslingen.de
+Author: Markus Enzweiler, markus.enzweiler@hs-esslingen.de
 
 This repository contains some Jupyter notebooks used in my lectures at Esslingen University of Applied Sciences. The notebooks mainly use PyTorch (https://pytorch.org/) and are written for educational purposes with explanations and visualizations. For some topics there are notebooks available that use MLX for Apple SoCs (https://github.com/ml-explore/mlx) instead of PyTorch.  
 
@@ -30,7 +30,7 @@ pip install -r cv-ml-lecture-notebooks/multi_layer_perceptron/torch/requirements
 python -m ipykernel install --user --name=cv-ml-torch
 ```
 
-Then open notebooks in your favorite tool (e.g. VSCode) and select the installed Jupyter kernel `cv-ml-torch`
+Then you can open notebooks in your favorite tool (e.g. VSCode) and select the installed Jupyter kernel `cv-ml-torch` to execute the notebooks. 
 
 
 
