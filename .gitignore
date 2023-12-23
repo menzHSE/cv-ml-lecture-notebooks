@@ -1,2 +1,4 @@
 .DS_Store
 *.code-workspace
+cnn/cifar/mlx/mlx-cifar-10-cnn
+cnn/cifar/mlx/*.npz
