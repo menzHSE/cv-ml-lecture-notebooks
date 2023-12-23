@@ -2,3 +2,6 @@
 *.code-workspace
 cnn/cifar/mlx/mlx-cifar-10-cnn
 cnn/cifar/mlx/*.npz
+cnn/cifar/torch/torch-cifar-10-cnn
+cnn/cifar/torch/*.pth
+cnn/cifar/torch/data/
