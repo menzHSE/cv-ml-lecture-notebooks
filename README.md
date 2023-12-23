@@ -16,7 +16,7 @@ To work through all of the material, the following order is recommended.
 * `linear_regression`: demo of linear regression in PyTorch and MLX
 * `perceptron`: multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
 * `multi_layer_perceptron`: multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries
-* `cifar`: demos of CNNs in PyTorch and MLX for image classification
+* `cnn`: demos of CNNs in PyTorch and MLX for image classification
 
 ## Usage
 
