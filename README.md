@@ -33,4 +33,6 @@ python -m ipykernel install --user --name=cv-ml-torch
 Then you can open notebooks in your favorite tool (e.g. VSCode) and select the installed Jupyter kernel `cv-ml-torch` to execute the notebooks. 
 
 
+## Contribute
 
+Please submit pull requests for bugfixes and additional features. Besides NumPy, PyTorch and MLX, some JAX examples would be nice. 
