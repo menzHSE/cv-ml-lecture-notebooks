@@ -5,3 +5,5 @@ cnn/cifar/mlx/*.npz
 cnn/cifar/torch/torch-cifar-10-cnn
 cnn/cifar/torch/*.pth
 cnn/cifar/torch/data/
+cnn/cifar/mlx/models
+cnn/cifar/torch/models
