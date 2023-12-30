@@ -17,7 +17,7 @@ To work through all of the material, the following order is recommended.
 * `perceptron`: multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
 * `multi_layer_perceptron`: multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries
 * `cnn`: demos of CNNs in PyTorch and MLX for image classification
-* `vae`: demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets
+* `vae`: demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch
 
 ## Usage
 
