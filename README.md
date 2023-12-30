@@ -12,11 +12,17 @@ This repository contains some Jupyter notebooks used in my lectures at Esslingen
 
 To work through all of the material, the following order is recommended. 
 
+### 1) Automatic Differentiation
 * `autograd`: Demo of automatic differentiation in PyTorch and MLX
+### 2) Linear Regression
 * `linear_regression`: Demo of linear regression in PyTorch and MLX
+### 3) Perceptrons
 * `perceptron`: Multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
+### 4) Multi-Layer Perceptrons (MLPs)
 * `multi_layer_perceptron`: Multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries
+### 5) Convolutional Neural Networks (CNNs)
 * `cnn`: Demos of CNNs in PyTorch and MLX for image classification. This example uses code from the repositories https://github.com/menzHSE/torch-cifar-10-cnn and  https://github.com/menzHSE/mlx-cifar-10-cnn
+### 6) Convolutional Variational Autoencoders (VAEs)
 * `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example uses code from the repository https://github.com/menzHSE/torch-vae. 
 
 ## Usage
