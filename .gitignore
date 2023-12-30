@@ -7,3 +7,5 @@ cnn/cifar/torch/*.pth
 cnn/cifar/torch/data/
 cnn/cifar/mlx/models
 cnn/cifar/torch/models
+vae/torch/torch-vae/
+vae/torch/data/
