@@ -16,8 +16,8 @@ To work through all of the material, the following order is recommended.
 * `linear_regression`: Demo of linear regression in PyTorch and MLX
 * `perceptron`: Multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent
 * `multi_layer_perceptron`: Multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries
-* `cnn`: Demos of CNNs in PyTorch and MLX for image classification
-* `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. 
+* `cnn`: Demos of CNNs in PyTorch and MLX for image classification. This example uses code from the repositories https://github.com/menzHSE/torch-cifar-10-cnn and  https://github.com/menzHSE/mlx-cifar-10-cnn
+* `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example uses code from the repository https://github.com/menzHSE/torch-vae. 
 
 ## Usage
 
