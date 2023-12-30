@@ -1,0 +1,5 @@
+numpy
+matplotlib
+Pillow
+mlx
+mlx-data
