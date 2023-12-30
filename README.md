@@ -7,7 +7,7 @@ Author: Markus Enzweiler, markus.enzweiler@hs-esslingen.de
 This repository contains Jupyter notebooks used in my lectures at Esslingen University of Applied Sciences. The notebooks mainly use PyTorch (https://pytorch.org/) and are written for educational purposes with explanations and visualizations. There are additional notebooks available for some topics that use MLX for Apple SoCs (https://github.com/ml-explore/mlx). 
 
 
-## Contribution
+## Contributing
 
 **Feel free to use and contribute!** 
 
