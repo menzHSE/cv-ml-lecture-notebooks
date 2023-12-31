@@ -33,36 +33,36 @@ To work through all of the material, the following order is recommended.
 ### 2) Linear Regression
 * `linear_regression`: Demo of linear regression in PyTorch and MLX.
 
-<img src="assets/lin_reg_01.jpg" width="400"/>
+<img src="assets/lin_reg_01.jpg" width="600"/>
 
 
 ### 3) Perceptrons
 * `perceptron`: Multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent, e.g. comparison of manually derived gradients vs. automatic differentiation. There are several different variants of (the same) gradient descent implemented: "manual" gradient descent, gradient descent via autograd, gradient descent via backprop (`loss.backward()`), and gradient descent using PyTorch optimizers (`torch.optim`). 
 
-<img src="assets/perceptron_01.jpg" width="400"/>
+<img src="assets/perceptron_01.jpg" width="600"/>
 
 
 ### 4) Multi-Layer Perceptrons (MLPs)
 * `multi_layer_perceptron`: Multiple demos of multi-layer perceptrons in PyTorch and MLX including visualizations of decision boundaries.
 
-<img src="assets/mlp_01.jpg" width="400"/>
+<img src="assets/mlp_01.jpg" width="600"/>
 
 
 ### 5) Convolutional Neural Networks (CNNs)
 * `cnn`: Demos of CNNs in PyTorch and MLX for image classification. This example uses code from the repositories https://github.com/menzHSE/torch-cifar-10-cnn and https://github.com/menzHSE/mlx-cifar-10-cnn. It demonstrates defining, training and testing a small custom ResNet-like CNN from scratch as well as finetuning a larger ResNet that has been pre-trained on ImageNet to CIFAR-10 / 100. 
 
-<img src="assets/cnn_01.jpg" width="400"/>
+<img src="assets/cnn_01.jpg" width="600"/>
 
 
 ### 6) Convolutional Variational Autoencoders (VAEs)
 * `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example comes with pretrained VAE models and uses code from the repository https://github.com/menzHSE/torch-vae. 
 
 
-<img src="assets/vae_01.jpg" width="400"/>
+<img src="assets/vae_01.jpg" width="600"/>
 <br>
-<img src="assets/vae_02.jpg" width="400"/>
+<img src="assets/vae_02.jpg" width="600"/>
 <br>
-<img src="assets/vae_03.jpg" width="400"/>
+<img src="assets/vae_03.jpg" width="600"/>
 
 ## Usage
 
