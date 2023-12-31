@@ -28,8 +28,7 @@ To work through all of the material, the following order is recommended.
 
 
 ### 3) Perceptrons
-* `perceptron`: Multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent, e.g. comparison
-of manually derived gradients vs. automatic differentiation. 
+* `perceptron`: Multiple demos of perceptrons in NumPy, PyTorch and MLX. Some of the demos are very "spelled-out" to provide some insights into the inner working of gradient descent, e.g. comparison of manually derived gradients vs. automatic differentiation. There are several different variants of (the same) gradient descent implemented: "manual" gradient descent, gradient descent via autograd, gradient descent via backprop (`loss.backward()`), and gradient descent using PyTorch optimizers (`torch.optim`). 
 
 <img src="assets/perceptron_01.jpg" width="400"/>
 
