@@ -13,7 +13,7 @@ This repository contains Jupyter notebooks used in my lectures at Esslingen Univ
 I welcome contributions from the community. If you find bugs or have suggestions for additional features, please feel free to submit pull requests.
 
 ### Suggested Contributions:
-- **Additional Topics**: Contributions that introduce new topics such as transfer learning, GANs (Generative Adversarial Networks), diffusion models, RNNs (Recurrent Neural Networks), LSTMs (Long Short-Term Memory networks), Transformers, and other advanced neural network architectures are highly appreciated.
+- **Additional Topics**: Contributions that introduce new topics such as CNNs for object detection / semantic segmentation, GANs (Generative Adversarial Networks), diffusion models, RNNs (Recurrent Neural Networks), LSTMs (Long Short-Term Memory networks), Transformers, and other advanced neural network architectures are highly appreciated.
 - **JAX Examples**: I'm particularly interested in expanding the examples to include JAX implementations.
 - **Theoretical Explanations**: In-depth theoretical explanations or visualizations that enhance understanding of the presented concepts in machine learning and neural network design are welcome. Contributions that bridge the gap between theory and practical implementation would be especially valuable.
 
