@@ -6,12 +6,20 @@ Author: [Markus Enzweiler](https://markus-enzweiler-de), markus.enzweiler@hs-ess
 
 This repository contains Jupyter notebooks used in my lectures at Esslingen University of Applied Sciences. The notebooks mainly use PyTorch (https://pytorch.org/) and are written for educational purposes with explanations and visualizations. There are additional notebooks available for some topics that use MLX for Apple SoCs (https://github.com/ml-explore/mlx). 
 
-
 ## Contributing
 
-**Feel free to use and contribute!** 
+**Feel free to use and contribute!**
+I welcome contributions from the community. If you find bugs or have suggestions for additional features, please feel free to submit pull requests.
 
-Please submit pull requests for bugfixes and additional features. Besides NumPy, PyTorch and MLX, some JAX examples would be nice. Additional topics could include GANs, diffusion models, RNNs, LSTMs, Transformers, etc.  
+### Suggested Contributions:
+- **Additional Topics**: Contributions that introduce new topics such as transfer learning, GANs (Generative Adversarial Networks), diffusion models, RNNs (Recurrent Neural Networks), LSTMs (Long Short-Term Memory networks), Transformers, and other advanced neural network architectures are highly appreciated.
+- **JAX Examples**: I'm particularly interested in expanding the examples to include JAX implementations.
+- **Theoretical Explanations**: In-depth theoretical explanations or visualizations that enhance understanding of the presented concepts in machine learning and neural network design are welcome. Contributions that bridge the gap between theory and practical implementation would be especially valuable.
+
+
+### Use of the Material:
+Please cite or acknowledge this repository when using its contents for your teaching or projects. 
+
 
 ## Contents
 
