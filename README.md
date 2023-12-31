@@ -51,6 +51,8 @@ To work through all of the material, the following order is recommended.
 ### 5) Convolutional Neural Networks (CNNs)
 * `cnn`: Demos of CNNs in PyTorch and MLX for image classification. This example uses code from the repositories https://github.com/menzHSE/torch-cifar-10-cnn and https://github.com/menzHSE/mlx-cifar-10-cnn. It demonstrates defining, training and testing a small custom ResNet-like CNN from scratch as well as finetuning a larger ResNet that has been pre-trained on ImageNet to CIFAR-10 / 100. 
 
+<img src="assets/cnn_01.jpg" width="400"/>
+
 
 ### 6) Convolutional Variational Autoencoders (VAEs)
 * `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example comes with pretrained VAE models and uses code from the repository https://github.com/menzHSE/torch-vae. 
