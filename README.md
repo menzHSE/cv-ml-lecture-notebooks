@@ -9,6 +9,7 @@ This repository contains Jupyter notebooks used in my lectures at Esslingen Univ
 ## Contributing
 
 **Feel free to use and contribute!**
+
 I welcome contributions from the community. If you find bugs or have suggestions for additional features, please feel free to submit pull requests.
 
 ### Suggested Contributions:
