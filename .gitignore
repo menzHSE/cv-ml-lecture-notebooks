@@ -10,3 +10,5 @@ cnn/cifar/torch/models
 vae/torch/torch-vae/
 vae/torch/data/
 vae/torch/data
+gan/torch/data
+gan/torch/torch-gan
