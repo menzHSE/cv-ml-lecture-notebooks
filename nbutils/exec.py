@@ -8,45 +8,38 @@ import fcntl
 import errno
 
 
-def execute(script_name, on_colab, params):
-    if on_colab:
-        executeCaptureColab(script_name, params)
-    else:
-        executeCapture(script_name, params)
-
-
-def executeCapture(script_path, params):    
+def executePythonScript(script_path, params):  
     if os.path.exists(script_path):
         print(f"Executing script: {script_path}")
         # Create the command list starting with Python and the script path
-        command = ["python", script_path]
-        # Add additional arguments from the params dictionary
+        command = ["python", script_path]  
+         # Add additional arguments from the params dictionary
         if params:
             for key, value in params.items():
                 command.append(f"--{key}")
                 command.append(str(value))
-        print(command)
-        subprocess.run(command)
+        executeCommand(command)
     else:
-        print(f"Script not found: {script_path}")
+        print(f"Script not found: {script_path}")    
 
+
+
+def executeCommand(command, on_colab):
+    if on_colab:
+        executeCaptureColabCommand(command)     
+    else:
+        executeCaptureCommand(command)    
+   
+
+def executeCaptureCommand(command):   
+    print(command)
+    subprocess.run(command)
 
 # This is very hacky ... but it's hard to capture the output of a subprocess in Colab
-def executeCaptureColab(script_path, params):   
-    if os.path.exists(script_path):
-        print(f"Executing script: {script_path}")
-        # Create the command list starting with Python and the script path
-        command = ["python", script_path]
-        # Add additional arguments from the params dictionary
-        if params:
-            for key, value in params.items():
-                if value is not None:  # Check if the value is None
-                    command.append(f"--{key}")
-                    command.append(str(value))
-                else:
-                    command.append(f"--{key}")
-        print("Command:", " ".join(command))
+def executeCaptureColabCommand(command):  
 
+        print(command) 
+    
         # Start the subprocess
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
 
@@ -77,5 +70,3 @@ def executeCaptureColab(script_path, params):
         process.wait()
         output_thread.join()
 
-    else:
-        print(f"Script not found: {script_path}")
