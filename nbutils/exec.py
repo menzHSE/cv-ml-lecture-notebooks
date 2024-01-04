@@ -8,7 +8,7 @@ import fcntl
 import errno
 
 
-def executePythonScript(script_path, params):  
+def executePythonScript(script_path, params, on_colab):  
     if os.path.exists(script_path):
         print(f"Executing script: {script_path}")
         # Create the command list starting with Python and the script path
@@ -18,7 +18,7 @@ def executePythonScript(script_path, params):
             for key, value in params.items():
                 command.append(f"--{key}")
                 command.append(str(value))
-        executeCommand(command)
+        executeCommand(command, on_colab)
     else:
         print(f"Script not found: {script_path}")    
 
