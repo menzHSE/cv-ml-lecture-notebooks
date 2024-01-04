@@ -6,13 +6,14 @@ import threading
 import subprocess
 import fcntl
 import errno
+import sys
 
 
 def executePythonScript(script_path, params, on_colab):  
     if os.path.exists(script_path):
         print(f"Executing script: {script_path}")
         # Create the command list starting with Python and the script path
-        command = ["python", script_path]  
+        command = [sys.executable, script_path]  
          # Add additional arguments from the params dictionary
         if params:
             for key, value in params.items():
