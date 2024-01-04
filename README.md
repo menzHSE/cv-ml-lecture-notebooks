@@ -100,7 +100,7 @@ There a two different way to open and execute `setupOnColab.ipynb` in Colab.
 
 <img src="assets/colab_01.jpg" width="600"/>
 
-#### Once the repository has been cloned to your Google Drive with either of the two methods, open the notebooks directly from there in Colab
+#### Once the repository has been cloned to your Google Drive with either of the two methods, open the notebooks directly from there in Colab. Make sure to select a GPU runtime for computation-heavy notebooks!
 
 <img src="assets/colab_02.jpg" width="600"/>
 
