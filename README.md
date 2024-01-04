@@ -85,15 +85,22 @@ To work through all of the material, the following order is recommended.
 
 
 ## Usage
-
 You can run the Jupyter notebooks locally or in a cloud environment, e.g. Google Colab. There is a `requirements.txt` file in every folder that is automatically used by the notebooks to install dependencies within the active environments. 
 
 ### Google Colab
-On Google Colab, you can upload this repository to your Google Drive and open the Jupyter notebooks from there in Colab:
+On Google Colab this repository works by interfacing with Google Drive to host the repository itself. To set this up, a notebook `setupOnColab.ipynb` is provided in the repository. This notebook mounts and clones the repository to Google Drive. **It has to be executed once in Colab.** After it has been executed, the repository is available on your Google Drive. In each Jupyter notebook, the Google Drive is then mounted to the local Colab virtual machine.
+
+There a two different way to open and execute `setupOnColab.ipynb` in Colab. 
+
+#### 1) Open Colab and select File -> Open Notebook. From the menu, choose GitHub and open `setupOnColab.ipynb`
+
+<img src="assets/colab_03.jpg" width="600"/>
+
+#### 2) Clone this repo locally, copy `setupOnColab.ipynb` to your Google Drive and open `setupOnColab.ipynb` from there in Colab
 
 <img src="assets/colab_01.jpg" width="600"/>
 
-Alternatively, you can open the notebooks directly from GitHub in Colab and save a local copy from there:
+#### Once the repository has been cloned to your Google Drive with either of the two methods, open the notebooks directly from there in Colab
 
 <img src="assets/colab_02.jpg" width="600"/>
 
