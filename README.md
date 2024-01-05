@@ -55,10 +55,12 @@ To work through all of the material, the following order is recommended.
 
 
 ### 6) Convolutional Variational Autoencoders (VAEs)
-* `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example comes with pretrained VAE models and uses code from the repository https://github.com/menzHSE/torch-vae. 
+* `vae`: Demos and analyses of convolutional Variational Autoencoders (VAEs) using the MNIS, Fashion MNIST and Celeb-A datasets in PyTorch including: Training, reconstruction of training and test data, generation of random samples, visualization of latent spaces. This example comes with pretrained VAE models and uses code from the repository https://github.com/menzHSE/torch-vae. 
 
 
 <img src="assets/vae_01.jpg" width="600"/>
+<br>
+<img src="assets/vae_04.jpg" width="600"/>
 <br>
 <img src="assets/vae_02.jpg" width="600"/>
 <br>
