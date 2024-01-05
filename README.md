@@ -66,13 +66,22 @@ To work through all of the material, the following order is recommended.
 
 
 ### 7) Convolutional Generative Adversarial Networks (GANs)
-* `gan`: Demos and analyses of convolutional Deep Generative Adversarial Networks (DCGANs) using the MNIST and Celeb-A datasets in PyTorch including: Training, generation of random samples, visualization of latent spaces. This example comes with pretrained GAN models and uses code from the repository https://github.com/menzHSE/torch-gan. 
+* `gan`: Demos and analyses of convolutional Deep Generative Adversarial Networks (DCGANs) using the MNIST, Fashion MNIST and Celeb-A datasets in PyTorch including: Training, generation of random samples, visualization of latent spaces. This example comes with pretrained GAN models and uses code from the repository https://github.com/menzHSE/torch-gan. 
 
 **MNIST**
 
 <img src="assets/samples_mnist.png" width="600"/>
 <br>
 <img src="assets/mnist.gif" width="600"/>
+
+
+
+**Fashion MNIST**
+
+<img src="assets/samples_fashion_mnist.png" width="600"/>
+<br>
+<img src="assets/fashion-mnist.gif" width="600"/>
+
 
 
 **CelebA**
