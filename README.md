@@ -31,7 +31,7 @@ To work through all of the material, the following order is recommended.
 
 
 ### 2) Linear Regression
-* `linear_regression`: Demo of linear regression in PyTorch and MLX.
+* `linear_regression`: Demo of linear regression in PyTorch and MLX. The PyTorch examples use three variants: "manual" gradient descent, gradient descent via `loss.backward()`, and gradient descent using PyTorch optimizers (`torch.optim`)
 
 <img src="assets/lin_reg_01.jpg" width="600"/>
 
