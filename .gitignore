@@ -13,3 +13,4 @@ vae/torch/data
 gan/torch/data
 gan/torch/torch-gan
 */__pycache__/
+multi_layer_perceptron/torch/data
