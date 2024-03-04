@@ -1,11 +1,15 @@
 # Markus Enzweiler, markus.enzweiler@hs-esslingen.de
 
 import errno
-import fcntl
 import os
 import subprocess
 import sys
 import threading
+
+from nbutils import colab as nb_colab
+
+if nb_colab.check_for_colab():
+    import fcntl
 
 
 def executePythonScript(script_path, params, on_colab):
